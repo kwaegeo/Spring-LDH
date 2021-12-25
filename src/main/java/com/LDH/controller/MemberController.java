@@ -12,6 +12,6 @@ public class MemberController {
 
     @GetMapping(value="/new")
     public String test(){
-        return "Sample/test1";
+        return "Sample/index";
     }
 }
