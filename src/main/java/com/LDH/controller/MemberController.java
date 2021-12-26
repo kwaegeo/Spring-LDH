@@ -11,7 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MemberController {
 
     @GetMapping(value="/new")
-    public String test(){
-        return "Sample/index";
-    }
+    public String test(){return "Sample/index";}
+
+    @GetMapping(value="/new2")
+    public String test2(){return "Sample/login";}
+
 }
